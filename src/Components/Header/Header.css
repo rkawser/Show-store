@@ -1,0 +1,12 @@
+.header-style{
+    background-color: brown;
+}
+
+.header-text{
+    color: whitesmoke!important;
+    background-color: rgba(255, 255, 0, 0.26);
+    border-radius: 10px;
+}
+
+
+/* style */
