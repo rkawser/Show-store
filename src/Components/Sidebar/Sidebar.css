@@ -1,0 +1,19 @@
+
+
+
+.side-text{
+   text-decoration:none;
+   background-color: turquoise;
+   border-radius:5px;
+   margin-top: 5px;
+   font-weight: 500;
+}
+
+.side-text:hover{
+    text-decoration:none;
+   background-color: rgba(3, 17, 16, 0.329);
+   color: whitesmoke;
+   border-radius:5px;
+   margin-top: 5px;
+   font-weight: 500;
+}

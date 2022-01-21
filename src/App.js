@@ -2,13 +2,23 @@ import './App.css';
 import Home from './Components/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import { BoyProduct } from './Components/BoyProduct/BoyProduct';
+import { GirlsProduct } from './Components/GirlsProduct/GirlsProduct'
+import BabayProduct from './Components/BabayProduct/BabayProduct';
+import PageNotFound from './Components/NotFound/PageNotFound';
 
-import {
-  BrowserRouter as Router,
+import { BrowserRouter as Router,
+
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Payment from './Components/Payment/Payment';
+import MyOrders from './Components/MyOrders/MyOrders';
+import Review from './Components/Review/Review';
+
 
 function App() {
   return (
@@ -28,12 +38,42 @@ function App() {
            </Route>
 
            <Route path='/about'>
-           <Home></Home>
+           <About></About>
            </Route>
 
            <Route path='/contact'>
-           <Home></Home>
+           <Contact></Contact>
            </Route>
+
+           <Route path='/boy'>
+           <BoyProduct></BoyProduct>
+           </Route>
+
+
+           <Route path='/girls'>
+           <GirlsProduct></GirlsProduct>
+           </Route>
+
+           <Route path='/babay'>
+           <BabayProduct></BabayProduct>
+           </Route>
+
+           <Route path='/payment'>
+           <Payment></Payment>
+           </Route>
+
+           <Route path='/myorders'>
+           <MyOrders></MyOrders>
+           </Route>
+
+           <Route path='/review'>
+          <Review></Review>
+           </Route>
+
+           <Route exact path='*'>
+          <PageNotFound></PageNotFound>
+           </Route>
+
 
          </Switch>
        </Router>

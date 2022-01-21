@@ -1,9 +1,19 @@
-.header-style{
+.header-styles{
     background-color: brown;
 }
 
 .header-text{
     color: whitesmoke!important;
+    background-color: rgba(255, 255, 0, 0.26);
+    border-radius: 10px;
+}
+
+
+.header-style{
+    color: whitesmoke!important;
+}
+
+.header-style:hover{
     background-color: rgba(255, 255, 0, 0.26);
     border-radius: 10px;
 }
