@@ -6,7 +6,9 @@ const Home = () => {
     return (
         <Carousel fade>
         <Carousel.Item>
+        <div className='banner-style'>
             <Container>
+            
                 <Row className='hero-section'>
                     <Col Md={6}>
                         <div className='banner-text'>
@@ -23,10 +25,11 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-         
+            </div>
         </Carousel.Item>
 
         <Carousel.Item>
+            <div className='banner-style'>
         <Container>
                 <Row className='hero-section'>
                     <Col Md={6}>
@@ -42,8 +45,9 @@ const Home = () => {
                         </div>
                     </Col>
                 </Row>
+              
             </Container>
-      
+            </div>
         </Carousel.Item>
 
       </Carousel>
