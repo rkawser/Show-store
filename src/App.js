@@ -18,6 +18,7 @@ import { BrowserRouter as Router,
 import Payment from './Components/Payment/Payment';
 import MyOrders from './Components/MyOrders/MyOrders';
 import Review from './Components/Review/Review';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
 
 
          </Switch>
+         <Footer></Footer>
        </Router>
     </div>
   );

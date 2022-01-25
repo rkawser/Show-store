@@ -1,0 +1,33 @@
+
+
+
+.footer-style{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: whitesmoke;
+    /* text-align: justify; */
+    padding: 20px;
+
+}
+
+.footer-details{
+    text-align: justify;
+}
+
+.footer-details h2{
+    margin-bottom: 20px;
+}
+
+.footer-get{
+    text-align: justify;
+}
+
+.footer-help{
+    text-align: justify;
+}
+
+
+/* icon-style */
+
+.footeer-icon{
+
+}
