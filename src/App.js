@@ -19,7 +19,6 @@ import Payment from './Components/Payment/Payment';
 import MyOrders from './Components/MyOrders/MyOrders';
 import Review from './Components/Review/Review';
 
-
 function App() {
   return (
     <div className="App">

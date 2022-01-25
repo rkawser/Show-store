@@ -1,0 +1,30 @@
+
+
+
+.L-image1{
+    background-image: url('https://i.ibb.co/Fb8rTdd/1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+}
+
+.L-image2{
+    background-image: url('https://i.ibb.co/1ZGcpq9/2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+}
+
+.L-image3{
+    background-image: url('https://i.ibb.co/hykyJV9/3.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+}
+
+
+/* style-practice */
+

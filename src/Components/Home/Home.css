@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Lora', serif;
-    /* background-color: #1E3163; */
 }
 
 .hero-section{
@@ -10,7 +9,7 @@ body{
     align-items: center;
     height: 600px;
     text-align: justify;
-    /* background-color: #1E3163;  */
+
 }
 
 .banner-imaage1{
@@ -22,25 +21,19 @@ body{
 }
 
 .banner-imaage1{
-    /* background-color: cornflowerblue; */
     border-radius: 50%;
     padding: 10px;
     transition: 4s;
 }
 
 .banner-imaage1:hover{
-    background-image: url('https://i.ibb.co/0j0t8M3/wp2461042-removebg-preview.png');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: contain;
-    /* background-color:#1E3163; */
     border-radius: 50%;
     padding: 10px;
     transform:scale(1.20) rotatey(140deg);
 }
 
 .banner-imaage2{
-    background-image: url('https://i.ibb.co/NSbBH26/slider-03.webp');
+    background-image: url('https://i.ibb.co/WDgHwRg/pahang-malaysia-february-9-2018-260nw-1023664333-removebg-preview.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
@@ -48,18 +41,12 @@ body{
     background-repeat:no-repeat;
     background-position:center;
     background-size: contain;
-    /* background-color:#1E3163; */
     border-radius: 40%;
     padding: 5px;
     transition:4s;
 }
 
 .banner-imaage2:hover{
-    background-image: url('https://i.ibb.co/WDgHwRg/pahang-malaysia-february-9-2018-260nw-1023664333-removebg-preview.png');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: contain;
-    /* background-color:#103797; */
     border-radius: 40%;
     padding:5px;
     transform:scale(1.10) rotatey(-140deg);
