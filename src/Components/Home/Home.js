@@ -30,16 +30,15 @@ const Home = () => {
         <Container>
                 <Row className='hero-section'>
                     <Col Md={6}>
-                        <div>
+                        <div className='banner-text2'>
                             <h1>EXCLUSIVE <br/> NEW SHOES</h1>
                             <h3>Up To 30% Off All Shoes & Products</h3>
-                            <button className='btn btn-primary'>Shop Now</button>
+                            <button className='banner-btn'>Shop Now</button>
                         </div>
-                    </Col>
+                     </Col>
 
                     <Col Md={6}>
                         <div className='banner-imaage2'>
-
                         </div>
                     </Col>
                 </Row>

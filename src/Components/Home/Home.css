@@ -4,6 +4,13 @@ body{
     font-family: 'Lora', serif;
 }
 
+.hero-section{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    text-align: justify; 
+}
+
 .banner-imaage1{
     background-image: url('https://i.ibb.co/7bgBPXR/slider-01.webphttps://i.ibb.co/7bgBPXR/slider-01.webp');
     background-repeat: no-repeat;
@@ -16,6 +23,18 @@ body{
     background-color: cornflowerblue;
     border-radius: 40%;
     padding: 10px;
+    transition: 4s;
+}
+
+.banner-imaage1:hover{
+    background-image: url('https://i.ibb.co/LkBgbQp/divider1.webp');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-color:#1E3163;
+    border-radius: 40%;
+    padding: 10px;
+    transform:scale(1.20) rotatey(140deg);
 }
 
 .banner-imaage2{
@@ -24,13 +43,24 @@ body{
     background-size:contain;
     background-position:center;
     height: 500px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-color:#1E3163;
+    border-radius: 40%;
+    padding: 5px;
+    transition:4s;
 }
 
-.hero-section{
-    display: flex;
-    align-items: center;
-    height: 600px;
-    text-align: justify; 
+.banner-imaage2:hover{
+    
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-color:#1E3163;
+    border-radius: 40%;
+    padding:5px;
+    transform:scale(1.20) rotatex(160deg);
 }
 
 .banner-text h1{
@@ -42,6 +72,19 @@ margin-bottom:15px;
 .banner-text h3{
     margin-bottom:25px;
 }
+
+
+.banner-text2 h1{
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+.banner-text2  h3{
+    margin-bottom:25px;
+}
+
+
 
 .banner-btn{
     color: whitesmoke;
