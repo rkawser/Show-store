@@ -2,7 +2,7 @@
 
 
 .footer-style{
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.863);
     color: whitesmoke;
     /* text-align: justify; */
     padding: 20px;
@@ -17,6 +17,10 @@
     margin-bottom: 20px;
 }
 
+.footer-details h6, h4{
+color: darkgrey;
+}
+
 .footer-get{
     text-align: justify;
 }
@@ -25,9 +29,46 @@
     text-align: justify;
 }
 
+/* footer-menu-style */
+
+.footer-menu p{
+    color: darkgrey;
+}
+
+
+/* footer-get-in-touch-style */
+
+.footer-get p{
+color: darkgrey;
+}
+
+
+/* footer-help-style */
+
+.footer-help p{
+    color: darkgrey;
+}
 
 /* icon-style */
 
 .footeer-icon{
+font-size:40px;
+background-color: darkblue;
+padding: 10px;
+border-radius: 5px;
+/* color:darkblue; */
+transition: 1s;
+margin: 2px;
+}
 
+.footeer-icon:hover{
+font-size:50px;
+background-color: black;
+padding: 10px;
+border-radius: 5px;
+}
+
+/* footer-payment-system */
+.footer-payment{
+    background-image: url('');
 }
