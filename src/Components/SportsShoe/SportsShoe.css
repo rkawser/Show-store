@@ -1,0 +1,47 @@
+
+
+
+.sports-image{
+    background-image: url('https://i.ibb.co/RHhKFBZ/2-1.webp');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    transition: 1s;
+}
+.sports-image:hover{
+transform: scale(1.1);
+}
+.overly{
+overflow: hidden;
+}
+
+.sports-image2{
+    background-image: url('https://i.ibb.co/dW93Y3j/1-2.webp');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    transition: 1s;
+}
+.sports-image2:hover{
+    transform: scale(1.1);
+}
+
+.sports-button{
+    padding: 18px 50px;
+    background-color: rgb(236, 46, 13);
+    border: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sports-button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.sports-style{
+    text-align: justify;
+}

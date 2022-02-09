@@ -1,6 +1,8 @@
 import React from 'react'
 import { Carousel, Col, Container, Row } from 'react-bootstrap'
-import Latest from '../Latest/Latest'
+import Latest from '../Latest/Latest';
+import LatestBlog from '../LatestBlog/LatestBlog';
+import SportsShoe from '../SportsShoe/SportsShoe';
 import './Home.css'
 
 const Home = () => {
@@ -56,6 +58,13 @@ const Home = () => {
 
       <div className='my-5'>
       <Latest></Latest>
+      </div>
+      <div className='my-5'>
+      <SportsShoe></SportsShoe>
+      </div>
+
+      <div className='my-5'>
+      <LatestBlog></LatestBlog>
       </div>
       </>
       
