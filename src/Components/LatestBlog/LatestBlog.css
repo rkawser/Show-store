@@ -11,8 +11,41 @@
     transition: 1s;
 }
 
+.blogImage2{
+    background-image:url('https://i.ibb.co/BLCdwBV/2-2.webp');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.blogImage3{
+    background-image:url('https://i.ibb.co/6FqYpqy/3-1.webp');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
 .blogImage1:hover{
     transform: scale(1.2);
+}
+
+.blogImage2:hover{
+    transform: scale(1.2);
+}
+
+.blogImage3:hover{
+    transform: scale(1.2);
+}
+
+.blogOverly{
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .blogtext{
