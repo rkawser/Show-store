@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import './SportsShoe.css';
 
 const SportsShoe = () => {
@@ -25,8 +25,6 @@ const SportsShoe = () => {
                  <button className='sports-button'>SHOP NOW</button>
                 </div>
                  </div>
-              
-
              </Col>
            </Row>
        </Container>

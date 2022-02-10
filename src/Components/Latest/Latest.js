@@ -7,7 +7,7 @@ const Latest = () => {
      <Row>
        <Col md={4}>
          <div className='L-image1'>
-           <h5>some</h5>
+          
          </div>
        </Col>
        

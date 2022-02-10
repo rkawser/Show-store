@@ -35,11 +35,11 @@ overflow: hidden;
     color: whitesmoke;
     border-radius: 5px;
     margin-top: 20px;
+    transition: 2s;
 }
 
 .sports-button:hover{
-    background-color: aqua;
-    color: black;
+    background-color:black;
 }
 
 .sports-style{

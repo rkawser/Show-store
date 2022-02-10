@@ -31,7 +31,7 @@ const LatestBlog = () => {
                     
                     <div className='blogtext'>
                         <p><AiOutlineCalendar className='blog-icon'/> 27,Jun 2022</p>
-                        <h4 className='text-black'>Lorem ipsum dolor ametcons adipisicing elit sed</h4>
+                        <h4 className='text-black'>Celebrity Daughter Opens About Upto Having Her Eye</h4>
                          
                          <button className='blog-button'>Read More</button>
                     </div>
@@ -46,7 +46,7 @@ const LatestBlog = () => {
                     
                     <div className='blogtext'>
                         <p><AiOutlineCalendar className='blog-icon'/> 27,Jun 2022</p>
-                        <h4 className='text-black'>Lorem ipsum dolor ametcons adipisicing elit sed</h4>
+                        <h4 className='text-black'>Romantic Love Stories Of Hollywood Popular Celebrities</h4>
                          
                          <button className='blog-button'>Read More</button>
                     </div>

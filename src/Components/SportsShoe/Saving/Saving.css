@@ -1,0 +1,21 @@
+
+
+
+
+.saving-image{
+    background-image: url('https://i.ibb.co/VTzM9xZ/680116-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    transition: 4s;
+    background-attachment: fixed;
+}
+
+.saving-image:hover{
+    background-image: url('https://i.ibb.co/sqcpRLp/680104.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
