@@ -19,6 +19,9 @@ import Payment from './Components/Payment/Payment';
 import MyOrders from './Components/MyOrders/MyOrders';
 import Review from './Components/Review/Review';
 import Footer from './Components/Footer/Footer';
+import Register from './Components/Register/Register';
+import Firebase from './Components/Footer/Firebase/Firebase';
+import Login from './Components/Login/Login';
 
 function App() {
   return (
@@ -67,7 +70,20 @@ function App() {
            </Route>
 
            <Route path='/review'>
-          <Review></Review>
+           <Review></Review>
+           </Route>
+
+           <Route path='/register'>
+           <Register></Register>
+           </Route>
+
+           <Route path='/login'>
+           <Login></Login>
+           </Route>
+
+
+           <Route path='/firebase'>
+          <Firebase></Firebase>
            </Route>
 
            <Route exact path='*'>
@@ -76,7 +92,7 @@ function App() {
 
 
          </Switch>
-         <Footer></Footer>
+         {/* <Footer></Footer> */}
        </Router>
     </div>
   );

@@ -1,0 +1,86 @@
+
+
+.login-from{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    padding:150px 20px;
+    border-radius: 10px;
+}
+.login-from{
+    background-image: url('https://i.ibb.co/zR17dbZ/dribbble.gif');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.267);
+    transition: 5s;
+    animation-duration: 1s;
+}
+
+.login-from:hover{
+    background-image: url('https://i.ibb.co/z4XGTB1/DC-shoe-animation.gif');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.login-from input {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-button{
+    background-color:#0d6dfda8;
+    font-weight: bold;
+    color: aliceblue;
+    transition:2s;   
+}
+
+.login-button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.login-text{
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.google-button{
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius:5px;
+    border: none;
+    background-color:#ded03ab6;
+    transition: 1s;
+}
+
+.google-button:hover{
+    background-color: black;
+    color: #b6ab3e;
+}
+
+.facebook-button{
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius:5px;
+    border: none;
+    background-color:#1F479C;
+    transition: 1s;
+}
+
+.facebook-button:hover{
+    background-color: black;
+    color: #1f479c;
+}

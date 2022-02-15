@@ -6,8 +6,10 @@
     background-size: cover;
     background-position: center;
     height: 400px;
-    transition: 4s;
     background-attachment: fixed;
+    transition:5s;
+    animation-duration: 2s;
+    
 }
 
 .saving-image:hover{

@@ -25,6 +25,7 @@ const Header = () => {
           <NavDropdown.Item as={Link} to="/babay">Baby</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/contact"  className='header-style'>Contact</Nav.Link>
+          <Nav.Link as={Link} to="/login"  className='header-style'>Login</Nav.Link>
       </Nav>
 
       <Form className="d-flex">

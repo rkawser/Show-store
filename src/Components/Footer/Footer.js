@@ -60,6 +60,22 @@ const Footer = () => {
             </Col>       
         </Row>
     </Container>
+    <div className='footer-pay-style'>
+    <Container className='mt-5'>
+        <Row>
+            <Col md={6}>
+                <div className='made-name'>
+                    <h5>© 2021 Shoe store. Made with❤by Raihan kawser.</h5>
+                </div>
+            </Col>
+            <Col md={6}>
+                <div className='pay-image'>
+                </div>
+            </Col>
+        </Row>
+    </Container>
+    </div>
+   
   </div>
   );
 };

@@ -72,3 +72,23 @@ border-radius: 5px;
 .footer-payment{
     background-image: url('');
 }
+
+/* payment style */
+
+.pay-image{
+    background-image: url('https://i.ibb.co/j8ZHs0j/payment-card.webp');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+}
+
+.footer-pay-style{
+background-color: #5a545411;
+padding:5px;
+}
+
+.made-name{
+    text-align: justify;
+}
+
