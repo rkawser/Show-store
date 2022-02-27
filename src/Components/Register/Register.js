@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
-
+import './Register.css'
 const Register = () => {
   const { register, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
@@ -14,7 +14,7 @@ const Register = () => {
         <div>
             <h2 className='login-text'>Register</h2>
         </div>
-    <form className='login-from' onSubmit={handleSubmit(onSubmit)}>
+    <form className='register-from' onSubmit={handleSubmit(onSubmit)}>
      <input type="name" {...register("name")} placeholder='Name'/>
       <input type="email" {...register("Email")} placeholder='Email'/>
       <input type="password" {...register("Password")} placeholder='Password'/>

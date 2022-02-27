@@ -22,13 +22,15 @@ import Footer from './Components/Footer/Footer';
 import Register from './Components/Register/Register';
 import Firebase from './Components/Footer/Firebase/Firebase';
 import Login from './Components/Login/Login';
+import AuthProvider from './Components/AuthProvider/AuthProvider';
 
 function App() {
   return (
+    <AuthProvider>
     <div className="App">
      
   
-       <Router>
+  <Router>
          <Header></Header>
          <Switch>
 
@@ -94,7 +96,8 @@ function App() {
          </Switch>
          {/* <Footer></Footer> */}
        </Router>
-    </div>
+     </div>
+    </AuthProvider>
   );
 }
 

@@ -5,11 +5,15 @@ import './Login.css';
 import { FcGoogle} from "react-icons/fc";
 import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+// import FirebaseAuthentication from './../Footer/Firebase/Firebase';
+import useAuth from './../PrivateRoute/UseAuth';
 
 
 const Login = () => {
-    const { register, handleSubmit } = useForm();
-    const onSubmit = data => console.log(data);
+   const {GoogleWithsignIn} =useAuth();
+   const { register, handleSubmit } = useForm();
+   const onSubmit = data => console.log(data);
+    
   return (
     <>
     <Container>
@@ -23,7 +27,7 @@ const Login = () => {
       <h5 className='text-white'>New User <Link to='/register'>Please Register</Link></h5>
       
       <div>
-        <button className='google-button'><FcGoogle/> Google sign In</button>
+        <button onClick={GoogleWithsignIn} className='google-button' ><FcGoogle/> Google sign In</button>
         <button className='facebook-button'><FaFacebookF className='text-white'/> facebook sign In</button>
       </div>
     </form>

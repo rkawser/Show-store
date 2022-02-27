@@ -1,0 +1,57 @@
+
+
+.register-from{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    padding:150px 20px;
+    border-radius: 10px;
+}
+.register-from{
+    background-image: url('https://i.ibb.co/PQLV0zR/news-preview-mob-image-preview-246.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.267);
+    transition: 5s;
+    animation-duration: 1s;
+}
+
+.register-from:hover{
+    background-image: url('https://i.ibb.co/Jr6hFcj/ca3bbd95419197-5e9713429231f.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.register-from input {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.register-button{
+    background-color:#0d6dfda8;
+    font-weight: bold;
+    color: aliceblue;
+    transition:2s;   
+}
+
+.register-button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.register-text{
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}

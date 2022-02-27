@@ -8,6 +8,7 @@ import { FaHandPointRight } from "react-icons/fa";
 import { MdPayments } from "react-icons/md";
 import { RiHandHeartFill} from "react-icons/ri";
 import { AiOutlineLogout } from "react-icons/ai";
+import useAuth from './../PrivateRoute/UseAuth';
 
 const Sidebar = () => {
     const [show, setShow] = useState(false);
@@ -15,6 +16,7 @@ const Sidebar = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const{LogOut}=useAuth();
   return(
 <>
    <Button variant="primary" onClick={handleShow}>
@@ -30,7 +32,7 @@ const Sidebar = () => {
         <Nav.Link as={Link} to="/myorders" className='side-text'><FaHandPointRight/> My ORders</Nav.Link>
         <Nav.Link as={Link} to="/payment" className='side-text'><MdPayments/> Payment</Nav.Link>
         <Nav.Link as={Link} to="/review" className='side-text'><RiHandHeartFill/> Review</Nav.Link>
-        <Nav.Link as={Link} to="/home" className='side-text'> <AiOutlineLogout/> LogOut</Nav.Link>
+        <Nav.Link as={Link} onClick={LogOut} to="/home"className='side-text'> <AiOutlineLogout/>LogOut</Nav.Link>
         </Offcanvas.Body>
       </Offcanvas>
     </>

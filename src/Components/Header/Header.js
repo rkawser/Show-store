@@ -1,9 +1,11 @@
 import React from 'react'
-import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar'
 import './Header.css'
+import FirebaseAuthentication from './../Footer/Firebase/Firebase';
 const Header = () => {
+  const{user}=FirebaseAuthentication();
     return (
         <Navbar className='header-styles' expand="lg">
   <Container fluid>
@@ -30,6 +32,7 @@ const Header = () => {
 
       <Form className="d-flex">
         {/* <Button variant="outline-success">Login</Button> */}
+        <span>{user.displayName}</span>
         <Sidebar/>
       </Form>
 
